@@ -1,6 +1,7 @@
 # Projekt-Firmy-Obuwniczej
 Projekt bazy danych Microsoft SQL Server dla małej firmy produkującej obuwie na zamówienie. Firma zatrudnia cholewkarzy, szewców, handlowców oraz personel pomocniczy (pakowanie, przygotowanie materiałów).
 
+
 Projekt zawiera kompletną strukturę bazy danych (tabele), procedury składowane, triggery oraz widoki dla raportów i analiz biznesowych. Dokumentacja techniczna znajduje się bezpośrednio w kodzie jako komentarze, oraz w dole aktualnie przeglądanego pliku.
 
 ## Instalacja
@@ -27,27 +28,27 @@ Pliki zostały rozbite na moduły dla lepszej czytelności:
 - Statusy zamówień - "Nowe", "W trakcie produkcji", "Ukończono",
 - Śledzenie materiałów - jakie materiały zostały pobrane z magazynu do produkcji.
 2. ANALIZY I RAPORTY
-Raport miesięczny - liczba zamówień, wartość sprzedaży, ilość sprzedanych par,
-Analiza sprzedaży produktów - który produkt sprzedaje się najlepiej,
-Wydajność pracowników - ile zarobił każdy szewc i cholewkarz w danym miesiącu,
-Analiza klientów - ilu unikalnych klientów obsłużono w miesiącu,
-Stan magazynu - na ile par wystarczy materiałów.
+- Raport miesięczny - liczba zamówień, wartość sprzedaży, ilość sprzedanych par,
+- Analiza sprzedaży produktów - który produkt sprzedaje się najlepiej,
+- Wydajność pracowników - ile zarobił każdy szewc i cholewkarz w danym miesiącu,
+- Analiza klientów - ilu unikalnych klientów obsłużono w miesiącu,
+- Stan magazynu - na ile par wystarczy materiałów.
 3. ZARZĄDZANIE FINANSAMI
-Rozliczenia akordowe - automatyczne naliczanie wynagrodzeń szewcom i cholewkarzom,
-Wypłaty - procedury do wypłacania zarobków pracownikom,
-Wartość zamówień - automatyczne obliczanie wartości każdego zamówienia.
+- Rozliczenia akordowe - automatyczne naliczanie wynagrodzeń szewcom i cholewkarzom,
+- Wypłaty - procedury do wypłacania zarobków pracownikom,
+- Wartość zamówień - automatyczne obliczanie wartości każdego zamówienia.
 4. KONTROLA MAGAZYNU
-Śledzenie stanów - historia pobrań i dostaw materiałów,
-Alerty braków - sprawdzanie czy starczy materiałów przed uruchomieniem produkcji,
-Automatyczne pobieranie - materiały automatycznie pobierane przy przydziale produkcji.
+- Śledzenie stanów - historia pobrań i dostaw materiałów,
+- Alerty braków - sprawdzanie czy starczy materiałów przed uruchomieniem produkcji,
+- Automatyczne pobieranie - materiały automatycznie pobierane przy przydziale produkcji.
 5. ZARZĄDZANIE ZAMÓWIENIAMI
-Szczegóły zamówień - możliwość zamówienia wielu produktów w jednym zamówieniu,
-Edycja zamówień - zmiana ilości, produktów, cen,
-Archiwizacja - przechowywanie historii usuniętych zamówień.
+- Szczegóły zamówień - możliwość zamówienia wielu produktów w jednym zamówieniu,
+- Edycja zamówień - zmiana ilości, produktów, cen,
+- Archiwizacja - przechowywanie historii usuniętych zamówień.
 6. BEZPIECZEŃSTWO DANYCH
-Automatyczne kopie zapasowe - archiwizacja usuniętych danych,
-Walidacja danych - sprawdzanie poprawności przed zapisem,
-Spójność danych - triggery pilnujące poprawnych relacji.
+- Automatyczne kopie zapasowe - archiwizacja usuniętych danych,
+- Walidacja danych - sprawdzanie poprawności przed zapisem,
+- Spójność danych - triggery pilnujące poprawnych relacji.
 
 ## Spis tabel, procedur, triggerów i widoków
 
