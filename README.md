@@ -1,3 +1,6 @@
+
+<a href="https://github.com/mkowalik788/ProjektCV_v2">Nowy projekt (napisany zupełnie od nowa, z możliwością szerszej rozbudowy względem tego) jest już dostępny. Kliknij.</a>
+
 # Projekt Firmy Obuwniczej
 Projekt bazy danych Microsoft SQL Server dla małej firmy produkującej obuwie na zamówienie. Firma zatrudnia cholewkarzy, szewców, handlowców oraz personel pomocniczy (pakowanie, przygotowanie materiałów).
 
